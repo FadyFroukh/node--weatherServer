@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Weather App</title>
+  </head>
+  <body>
+      {{>header}}
+      <h1>HBS FILE !</h1>
+      <h2>{{title}}</h2> 
+      <p>created by : {{name}}</p>
+      {{>footer}}
+      <br><br><br><br>
+      <form>
+        <input type="text" placeholder="Enter Location">
+        <button>Search</button>
+      </form>
+      <p id="firstMessage"></p>
+      <p id="secondMessage"></p>
+      <script src="site.js"></script>
+  </body>
+  </head>
+</html>
